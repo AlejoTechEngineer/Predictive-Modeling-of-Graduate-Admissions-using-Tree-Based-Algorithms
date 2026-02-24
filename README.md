@@ -112,17 +112,17 @@ no  (< 0.6)  →   95 registros  →  19%
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                     PIPELINE COMPLETO                           │
-├─────────────┬──────────────┬──────────────┬────────────────────┤
-│  1. CARGA   │  2. EDA      │  3. PREPRO   │  4. MODELADO       │
+├─────────────┬──────────────┬──────────────┬─────────────────────┤
+│  1. CARGA   │  2. EDA      │  3. PREPRO   │  4. MODELADO        │
 │             │              │              │                     │
 │  CSV →      │  Estadís-    │  Binarizar   │  Decision Tree      │
 │  DataFrame  │  ticas desc. │  variable    │  Random Forest      │
 │  Strip cols │  Correlación │  Encode y    │  Train 70%          │
 │  Shape      │  Scatter     │  split 70/30 │  Test  30%          │
 │  isnull     │  Histogramas │  Stratify    │  Stratified         │
-├─────────────┴──────────────┴──────────────┴────────────────────┤
+├─────────────┴──────────────┴──────────────┴─────────────────────┤
 │                     5. EVALUACIÓN                               │
-│  Accuracy │ AUC-ROC │ Conf. Matrix │ Class. Report │ CV 5-fold │
+│  Accuracy │ AUC-ROC │ Conf. Matrix │ Class. Report │ CV 5-fold  │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
