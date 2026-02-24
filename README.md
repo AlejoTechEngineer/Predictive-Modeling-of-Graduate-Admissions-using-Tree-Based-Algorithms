@@ -91,18 +91,18 @@ no  (< 0.6)  →   95 registros  →  19%
 
 ```
 📦 Predictive-Modeling-of-Graduate-Admissions-using-Tree-Based-Algorithms
-├── 📄 admission_clasificacion.py          # Script principal — pipeline completo
-├── 📊 Admission_Predict_Ver1.1.csv        # Dataset principal (500 registros)
-├── 📊 Admission_Predict.csv               # Dataset versión anterior (400 registros)
-├── 📄 Desarrollo_Proyecto_Alejandro_De_Mendoza.pdf  # Informe técnico completo
-├── 🖼️ 01_analisis_exploratorio.png        # EDA: distribuciones y scatter plots
-├── 🖼️ 02_correlacion.png                  # Matriz de correlación de Pearson
-├── 🖼️ 03_arbol_decision.png               # Visualización del árbol entrenado
-├── 🖼️ 04_importancia_dt.png               # Feature importance — Decision Tree
-├── 🖼️ 05_importancia_rf.png               # Feature importance — Random Forest
-├── 🖼️ 06_matrices_confusion.png           # Matrices de confusión comparadas
-├── 🖼️ 07_curva_roc.png                    # Curva ROC — comparación de modelos
-└── 📄 README.md                           # Este archivo
+├── 📄 admission_clasificacion.py                      # Script principal — pipeline completo
+├── 📊 Admission_Predict_Ver1.1.csv                    # Dataset principal (500 registros)
+├── 📊 Admission_Predict.csv                           # Dataset versión anterior (400 registros)
+├── 📄 Desarrollo_Proyecto_Alejandro_De_Mendoza.pdf    # Informe técnico completo
+├── 🖼️ 01_analisis_exploratorio.png                    # EDA: distribuciones y scatter plots
+├── 🖼️ 02_correlacion.png                              # Matriz de correlación de Pearson
+├── 🖼️ 03_arbol_decision.png                           # Visualización del árbol entrenado
+├── 🖼️ 04_importancia_dt.png                           # Feature importance — Decision Tree
+├── 🖼️ 05_importancia_rf.png                           # Feature importance — Random Forest
+├── 🖼️ 06_matrices_confusion.png                       # Matrices de confusión comparadas
+├── 🖼️ 07_curva_roc.png                                # Curva ROC — comparación de modelos
+└── 📄 README.md                                       # Este archivo
 ```
 
 ---
