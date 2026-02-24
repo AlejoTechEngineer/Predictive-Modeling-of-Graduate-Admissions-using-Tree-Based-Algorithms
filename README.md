@@ -9,7 +9,7 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 ![University](https://img.shields.io/badge/UNIR-Ingeniería%20Informática-red?style=for-the-badge)
 
-**Laboratorio No. 2 | Aprendizaje Automático y Minería de Datos**  
+**Aprendizaje Automático y Minería de Datos**  
 **Fundación Universitaria Internacional de La Rioja — 2026**
 
 *Clasificación supervisada de candidatos a posgrado mediante Decision Tree y Random Forest*
@@ -286,13 +286,13 @@ Los 7 archivos PNG se generan automáticamente en la misma carpeta.
 <div align="center">
 
 **Alejandro De Mendoza**  
-Estudiante de Ingeniería Informática — Sexto Semestre  
+Ingeniería Informática 
 Fundación Universitaria Internacional de La Rioja (UNIR)  
 Bogotá D.C., Colombia — 2026
 
 [![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
 
-*Laboratorio desarrollado para la asignatura Aprendizaje Automático y Minería de Datos*  
+*Laboratorio desarrollado para Aprendizaje Automático y Minería de Datos*  
 *Profesor: Ing. Rogerio Orlando Beltrán Castro*
 
 </div>
