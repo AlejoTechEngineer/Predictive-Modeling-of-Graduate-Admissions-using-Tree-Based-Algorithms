@@ -1,4 +1,8 @@
+<div align="center">
+
 # 🎓 Predictive Modeling of Graduate Admissions using Tree-Based Algorithms
+
+</div>
 
 <div align="center">
 
