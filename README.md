@@ -25,6 +25,7 @@
 ## 📋 Tabla de Contenido
 
 - [Descripción del Proyecto](#-descripción-del-proyecto)
+- [Arquitectura](#arquitectura)
 - [Dataset](#-dataset)
 - [Estructura del Repositorio](#-estructura-del-repositorio)
 - [Pipeline del Análisis](#-pipeline-del-análisis)
@@ -37,21 +38,6 @@
 - [Autor](#-autor)
 
 ---
-
-## Arquitectura
-
-```mermaid
-flowchart TD
-    A[Admission_Predict_Ver1.1.csv - 500 registros Kaggle] --> B[admission_clasificacion.py - Pipeline]
-    B --> C[Exploracion EDA - 01_analisis_exploratorio.png]
-    B --> D[Preprocesamiento - Binarizar Chance of Admit >= 0.6]
-    D --> E[Train / Test Split 80/20]
-    E --> F[Decision Tree Classifier]
-    E --> G[Random Forest Classifier]
-    F & G --> H[Evaluacion - Accuracy - F1 - ROC-AUC]
-    H --> I[03_arbol_decision.png / 06_matrices_confusion.png / 07_curva_roc.png]
-    H --> J[Comparacion Modelos DT vs RF]
-```
 
 ## 🚀 Descripción del Proyecto
 
@@ -71,6 +57,21 @@ Se implementan y comparan dos algoritmos basados en árboles:
 El análisis sigue un pipeline completo: exploración → preprocesamiento → modelado → evaluación → interpretación.
 
 ---
+
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Admission_Predict_Ver1.1.csv - 500 registros Kaggle] --> B[admission_clasificacion.py - Pipeline]
+    B --> C[Exploracion EDA - 01_analisis_exploratorio.png]
+    B --> D[Preprocesamiento - Binarizar Chance of Admit >= 0.6]
+    D --> E[Train / Test Split 80/20]
+    E --> F[Decision Tree Classifier]
+    E --> G[Random Forest Classifier]
+    F & G --> H[Evaluacion - Accuracy - F1 - ROC-AUC]
+    H --> I[03_arbol_decision.png / 06_matrices_confusion.png / 07_curva_roc.png]
+    H --> J[Comparacion Modelos DT vs RF]
+```
 
 ## 📊 Dataset
 
